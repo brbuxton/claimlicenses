@@ -27,10 +27,12 @@ No headers or additional columns are needed.<br>
 
 ## Usage
 With the configuration set, you're ready to claim licenses. Run the script from your terminal:
+`
 <code>
     sh  
     main.py  
 </code>
+`
 The script will read each license key from the CSV file and attempt to claim them into the specified organization's inventory. Success or failure messages will be printed to the console for each license key.<br>
 
 ## Troubleshooting
