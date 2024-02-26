@@ -13,8 +13,8 @@ Ensure Python 3.x is installed on your system.<br>
 Install the requests library if not already installed:<br>
 
 `
-sh  
-pip install requests  
+        sh  
+        pip install requests  
 `
 
 ## Configuration
@@ -30,8 +30,8 @@ No headers or additional columns are needed.<br>
 With the configuration set, you're ready to claim licenses. Run the script from your terminal:<br>
 
 `
-sh  
-main.py  
+        sh  
+        main.py  
 `
 
 The script will read each license key from the CSV file and attempt to claim them into the specified organization's inventory. Success or failure messages will be printed to the console for each license key.<br>
