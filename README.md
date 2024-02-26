@@ -13,9 +13,9 @@ Ensure Python 3.x is installed on your system.
 Install the requests library if not already installed:
 sh
 Copy code
-'
+`
 pip install requests
-'
+`
 ## Configuration
 Before running the script, you need to set up a few things:
 
@@ -30,9 +30,9 @@ With the configuration set, you're ready to claim licenses. Run the script from 
 
 sh
 Copy code
-'
+`
 python meraki_license_claim.py
-'
+`
 The script will read each license key from the CSV file and attempt to claim them into the specified organization's inventory. Success or failure messages will be printed to the console for each license key.
 
 ## Troubleshooting
